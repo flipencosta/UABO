@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    border: 2px solid white;
+}
+
+img {
+    width: 100px;
+    cursor: pointer;
+    position: absolute;
+}
